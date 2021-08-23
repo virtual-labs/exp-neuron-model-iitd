@@ -1,4 +1,4 @@
-### Through this experiment you will be able to:
+Through this experiment you will be able to:
 
 1. Understand basic theory on neurons, central nervous systems and related physiology.
 
