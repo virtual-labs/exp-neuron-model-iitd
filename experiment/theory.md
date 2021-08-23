@@ -1,4 +1,4 @@
-### Link your theory in here
+ 
 
 
 
@@ -8,6 +8,10 @@
 In this section, we address a specific subject biophysicists have been studying --- neurons. A neuron is a nerve cell that is the basic building block of the nervous system. A one-year old human has about 100 billion (1011) neurons. A typical brain neuron will have connections with at least 1,000 other neurons. 
 
 The brain is a vastly complicated signalling system, with neurons forming the basis of that system. Electrochemical signals flow in one direction only in neurons, originating at the dendrites or cell body (usually in response to stimulation from other neurons) and propagating along axon branches which terminate on the dendrites or cell bodies of perhaps thousands of other neurons. The connections between the ends of axons and the dendrites or cell bodies of other neurons are specialized structures called synapses.
+
+ &nbsp;
+<center><img src="images/hh1.png" title="" /></center> 
+
 
  
 
@@ -23,41 +27,57 @@ The two ion-channels in the axon (both voltage-gated) allow passage of positive 
  
 We model the neuronal cell membrane as a resistor in series with a capacitor as the diagram below illustrates.
 
+<center><img src="images/hh2.jpg" title="" /></center> 
 
-When a voltage is applied as illustrated, a current will flow through this circuit and partition itself into two components, Submit
+Figure: Model of Cell Membrane
 
-Ii is the ionic current across the resistor and Ic is the current which flows through the capacitor. For the ionic current, Submit
+
+ &nbsp;
+ 
+When a voltage is applied as illustrated, a current will flow through this circuit and partition itself into two components, 
+<center><img src="images/hh3.gif" title="" /></center> 
+ 
+ &nbsp;
+
+Ii is the ionic current across the resistor and Ic is the current which flows through the capacitor. For the ionic current, 
+<center><img src="images/hh4.gif" title="" /></center> 
+ 
+ &nbsp;
 
 where Rm is the membrane resistance. The capacitative current is proportional to the rate at which the voltage changes and is proportional to
-
-Submit. This,  
-
+<center><img src="images/hh5.gif" title="" /></center> 
+ 
+ &nbsp;
+ This,  
+<center><img src="images/hh6.gif" title="" /></center> 
                           
 
-                                                                         Submit
-
+ &nbsp;
  
 
-Hodgkin-Huxley model of the excitable neuron
+**Hodgkin-Huxley model of the excitable neuron**
  
 
 The Hodgkin–Huxley model is a scientific model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear ordinary differential equations that approximates the electrical characteristics of excitable cells such as neurons and cardiac myocytes. The components of a typical Hodgkin–Huxley model are shown in the figure. Each component of an excitable cell has a biophysical analog. The lipid bilayer is represented as a capacitance (Cm). Voltage-gated ion channels are represented by nonlinear electrical conductances (gn, where n is the specific ion channel), meaning that the conductance is voltage and time-dependent. This was later shown to be mediated by voltage-gated cation channel proteins, each of which has an open probability that is voltage-dependent. Leak channels are represented by linear conductances (gL). The electrochemical gradients driving the flow of ions are represented by batteries (En and EL), the values of which are determined from the Nernst potential of the ionic species of interest. Finally, ion pumps are represented by current sources (Ip).
-The time derivative of the potential across the membrane Submit is proportional to the sum of the currents in the circuit. This is represented as follows:
+The time derivative of the potential across the membrane *Vm* is proportional to the sum of the currents in the circuit. This is represented as follows:
+<center><img src="images/hh7.gif" title="" /></center> 
 
-Submit
 
-where Ii denotes the individual ionic currents of the model.
+ &nbsp;
+
+where *Ii* denotes the individual ionic currents of the model.
 
  
 
-Ionic current characterization
+## Ionic current characterization
  
 
 The current flowing through the ion channels is mathematically represented by the following equation:
 
  
+<center><img src="images/hh8.gif" title="" /></center> 
 
-Submit
+&nbsp;
 
  
 
@@ -66,17 +86,17 @@ In voltage-gated ion channels, the channel conductance gi is a function of both 
 
  
 
-Resting membrane potential
+**Resting membrane potential**
 
  
 
 Knowing the concentrations of K+ and Na+ ions inside the cell and in the extracellular matrix allows us to calculate the Nernst potential for those ions. For EK we obtain a transmembrane voltage of –75 mV, and for ENa we obtain +55 mV. It is easily seen that since in the resting state the membrane potential is –70 mV and it is closer to the Nernst potential of K+, there will be a weak electromotive force of –5 mV pushing potassium ions toward the extracellular space, while for the sodium ions there will be a strong electromotive force of +125 mV pushing the sodium ions toward the cellular protoplasm.
 
-It is well known that the membrane potential at rest is kept by the action of the K+/Na+ pump. It opposes and counteracts to the mentioned electromotive forces above and throws out 3 Na+ ions – exchanging them for 2 K+ ions. The active pumping of the K+/Na+ pump however spends energy in the form of ATP. That is why the resting potential is an “unresting”, actively sustained biological state of the membrane. It therefore is a unstable state far from the equilibrium. It gets easily destroyed when the K+/Na+ pump is blocked, e.g. by administration of ouabain.
+It is well known that the membrane potential at rest is kept by the action of the K+/Na+ pump. It opposes and counteracts to the mentioned electromotive forces above and throws out 3 Na+ ions – exchanging them for 2 K+ ions. The active pumping of the K+/Na+ pump however spends energy in the form of ATP. That is why the resting potential is an “unresting”, actively sustained biological state of the membrane. It therefore is a unstable state far from the equilibrium. It gets easily destroyed when the K+/Na+ pump is blocked, e.g. by administration of *ouabain.*
 
  
 
-Generation of the action potential
+**Generation of the action potential**
  
 
 An action potential (or nerve impulse) is a transient alteration of the transmembrane voltage (or membrane potential) across an excitable membrane generated by the activity of voltage-gated ion channels embedded in the membrane. Action potentials play multiple roles in several types of excitable cells such as neurons, myocytes, and electrocytes. The best known action potentials are pulse-like waves of voltage that travel along axons of neurons.
