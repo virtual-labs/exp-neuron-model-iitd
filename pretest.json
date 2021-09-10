@@ -1,0 +1,78 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) What is a neuron ?",
+      "answers": {
+        "a": "Cells in animal that spike",
+        "b": "Cells of the brain",
+        "c": "Excitable muscle",
+        "d": "All of the above" 
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) Which part of the neuron is the basis of modeling its behavior ?",
+      "answers": {
+        "a": "Sodium and potassium channels",
+        "b": "Proteins complex",
+        "c": "Phospholipid bilayer or the cell membrane",
+        "d": "All of the above"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) What is membrane capacitance representing ?",
+      "answers": {
+        "a": "Lipid bilayer(cell membrane)",
+        "b": "Ion and ionic conductance",
+        "c": "Cell shape",
+        "d": "None of the above"
+      },
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4) Hodgkin-Huxley model simulate which neuronal behavior ?",
+      "answers": {
+        "a": "Action potential",
+        "b": "Membrane depolarization and hyperpolarization",
+        "c": "Both Action potential and Membrane depolarization & hyperpolarization",
+        "d": "None of the above"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5) Which ions mainly cause action potential or spiking ?",
+      "answers": {
+        "a": "Chloride",
+        "b": "Sodium and potassium",
+        "c": "Calcium",
+        "d": "All of the above"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+
+
+
+
+
+  ]
+}
